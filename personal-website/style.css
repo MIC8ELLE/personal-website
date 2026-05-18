@@ -6,8 +6,20 @@ body {
     background: rgb(247, 248, 251);
 }
 
-.navbar{
-    display: flex ;
+.navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.navlink-container {
+    gap: 20px;
+    display: flex;
+}
+.hero-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.78rem;
+    color: rgb(90, 99, 118);
+    margin: 0px;
 }
