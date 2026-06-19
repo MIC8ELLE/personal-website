@@ -70,3 +70,21 @@ padding-bottom: 200px;
     height: 300px;
     width: 600px;
 }
+
+.project{
+display: flex;
+gap: 40px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.project-image{
+width: 500px;
+height: 400px;
+}
+
+.project-card{
+width: 500px;
+height: 600px ;
+}
