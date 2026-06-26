@@ -4,6 +4,8 @@ body {
     line-height: 1.6;
     margin: 0px;
     background: rgb(247, 248, 251);
+padding-left: 50px;
+padding-right: 50px;
 }
 
 .navbar {
@@ -15,6 +17,11 @@ body {
 .navlink-container {
     gap: 20px;
     display: flex;
+}
+
+.hero-section{
+margin-top: 100px;
+margin-bottom: 100px;
 }
 
 .hero-title {
@@ -87,4 +94,23 @@ height: 400px;
 .project-card{
 width: 500px;
 height: 600px ;
+}
+
+.skill-section{
+display: flex;
+gap: 40px;
+}
+
+.skill-button{
+border: 1px solid grey ;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+border-radius: 25px;
+}
+
+.footer-section{
+margin-top: 100px;
 }
